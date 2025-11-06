@@ -1,3 +1,9 @@
 theme: jekyll-theme-minimal
 title: OAuth2 Spring server working template
 description: Ready to use OAuth2 Spring Boot server for usage in real projects or for learning purposes!
+
+kramdown:
+  # This option is needed to allow the {:toc} tag to work inside HTML blocks (e.g., in a layout)
+  parse_block_html: true
+  # This makes all headers (h1-h6) get an ID automatically, which is required for the TOC links
+  auto_ids: true
