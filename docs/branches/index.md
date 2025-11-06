@@ -1,6 +1,6 @@
 # Branches Organization 
 
-Feature for every branch are added, so everything existing in previous is also available in next 
+Feature for every branch are added, so everything existing in previous is also available in next. Main branch will always represent the latest one from the list. 
 
 | Branch name                | Description                                                                                                                                    | Features                |
 |----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|
