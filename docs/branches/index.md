@@ -1,9 +1,9 @@
 # Branches Organization 
 
-Feature for every branch are added, so everything existing in previous is also available in next. Main branch will always represent the latest one from the list. 
+Features are added incrementally from one branch to the next, meaning everything available in a previous branch is also available in the subsequent ones. **The main branch will always represent the latest branch from the list.**
 
-| Branch name                | Description                                                                                                                                    | Features                |
-|----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|
-| in-memory                  | Simplest and starting solution. User can login and logout. Everything is saved in memory and on every restart of the application state is lost | authentication, logout  |
-| persistent-postgres-docker | Added docker-compose Spring Boot feature, so that using Postgres database is easy. Client, users and consent are saved in the database.        | durability              |
+| Branch name                | Description                                                                                                                                                  | Features                       |
+|----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|
+| in-memory                  | The simplest starting solution. Users can log in and log out. Everything is saved in memory, and the application state is lost upon every restart.           | **authentication**, **logout** |
+| persistent-postgres-docker | Added docker-compose support for Spring Boot, simplifying the use of a Postgres database. Clients, users, and consent information are saved in the database. | **durability**                 |
     
