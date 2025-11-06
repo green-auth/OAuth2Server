@@ -1,10 +1,19 @@
 spring:
   application:
     name: Authorization Server
-
+  jpa:
+    hibernate:
+      ddl-auto: none
 server:
   port: 9000
 
 logging:
-  level:
-    org.springframework.security: trace
+#  level:
+#    org.springframework.security: trace
+
+#  level:
+#    org.springframework.jdbc.datasource.init: DEBUG
+#    org.springframework.test.context.jdbc: DEBUG
+   level:
+     org.flywaydb: DEBUG
+
