@@ -5,9 +5,9 @@ The project is structured into progressive "levels," with each one represented b
 
 ## Content
 
-**[1. Introduction](#index.md)**
+**[1. Introduction](index.md)**
 
-* [1.1. Branches](#branches/index.md)
+* [1.1. Branches](branches/index.md)
 
 
 
